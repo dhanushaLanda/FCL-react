@@ -1,0 +1,31 @@
+{
+  "name": "flower-catelog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json 'src/**/*.ts' 'src/**/*.tsx' -e 'src/**/node_modules/**'",
+    "lint:fix": "tslint --fix --project tsconfig.json src/**/*.ts src/**/*.tsx -e src/**/node_modules/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.4.2",
+    "@types/react-dom": "16.0.6",
+    "@types/react-router-dom": "^4.2.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "typescript": "^2.9.2"
+  }
+}
